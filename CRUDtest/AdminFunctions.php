@@ -2,7 +2,7 @@
 function pdo_connect_mysql() {
     $DATABASE_HOST = 'cs2s.yorkdc.net';
     $DATABASE_USER = 'william.hill1';
-    $DATABASE_PASS = '#William1';
+    $DATABASE_PASS = '#///';
     $DATABASE_NAME = 'williamhill1_will';
     try {
     	return new PDO('mysql:host=' . $DATABASE_HOST . ';dbname=' . $DATABASE_NAME . ';charset=utf8', $DATABASE_USER, $DATABASE_PASS);
